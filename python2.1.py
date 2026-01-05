@@ -11,3 +11,14 @@ print(str1)
 #string operation
 print(str1+str4)#string concatenation
 print(len(str4))#length of a string
+#indexing
+print(str4[0])#first character
+#slicing
+name="omm prakash"
+print(name[0:3])#print"omm"
+print(name[0:]) #print"omm prakash "
+print(name[:len(name)])#print"omm prakash"
+#negative string slicing
+print(name[-11:])#print"omm prakash"
+print(name[-11:-8])#print"omm"
+
