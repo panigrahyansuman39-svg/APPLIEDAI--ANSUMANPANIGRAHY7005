@@ -1,0 +1,2 @@
+ansu="my self ansuman panighrahy .i am from digapahandi ganjam .i have completed my matriculation from swami chatena nanda saraswat bidya mandir.currently i am pursuing my diploma in cse."
+print(len(ansu))
