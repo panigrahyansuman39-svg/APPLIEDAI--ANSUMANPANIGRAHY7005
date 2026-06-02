@@ -1,0 +1,27 @@
+item1=input("enter the name of item1: ")
+mrp1=int(input("enter the price of item1: "))
+discount=0.10
+item2=input("enter the name of item2: ")
+mrp2=int(input("enter the price of item2: "))
+item3=input("enter the name of item3: ")
+mrp3=int(input("enter the price of item3: "))
+item4=input("enter the name of item4: ")
+mrp4=int(input("enter the price of item4: "))
+item5=input("enter the name of item5: ")
+mrp5=int(input("enter the price of item5: "))
+item6=input("enter the name of item6: ")
+mrp6=int(input("enter the price of item6: "))
+item7=input("enter the name of item7: ")
+mrp7=int(input("enter the price of item7: "))
+item8=input("enter the name of item8: ")
+mrp8=int(input("enter the price of item8: "))
+item9=input("enter the name of item9: ")
+mrp9=int(input("enter the price of item9: "))
+item10=input("enter the name of item10: ")
+mrp10=int(input("enter the price of item10: "))
+bill =mrp1+mrp2+mrp3+mrp4+mrp5+mrp6+mrp7+mrp8+mrp9+mrp10
+print("final bill:", bill)
+discount_amount=bill*discount
+print("discount amount:", discount_amount)
+net_bill=bill-discount_amount
+print("net_bill:", net_bill)
