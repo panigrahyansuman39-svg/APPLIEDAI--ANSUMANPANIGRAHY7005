@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv("dataset.csv")
+print((df.isnull()))
+print(df.isnull().sum())
+df["Age"]=df["Age"].fillna(22)
+df["Purchase_Amount"]=df["Purchase_Amount"].fillna(22000)
+print(df.duplicated())
+print(df.duplicated().sum())
+print(df.drop_duplicates())
+df.to_csv("ansu.csv",index=False)
+print("saved succesfully")

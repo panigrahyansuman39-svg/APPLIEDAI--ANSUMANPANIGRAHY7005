@@ -1,0 +1,17 @@
+Customer_ID,Name,Age,Gender,City,Purchase_Amount,Date,Email
+C001,Rahul Sharma,25.0,Male,Delhi,1500,01-05-2025,rahul@gmail.com
+C002,Priya Singh,28.0,Female,Mumbai,2200,2025/05/03,priyasingh@gmail.com
+C003,Amit Kumar,22.0,Male,Bangalore,1800,05-05-2025,amit@gmail.com
+C004,Neha Gupta,32.0,F,Chennai,22000,06-05-2025,nehagupta@gmail
+C005,Rohit Verma,45.0,Male,Delhi,3200,07/05/2025,rohit@gmail.com
+C006,Anjali Das,29.0,Female,Kolkata,2100,08-05-2025,anjali@gmail.com
+C007,Suresh Patel,-5.0,Male,Ahmedabad,1700,09-05-2025,suresh@gmail.com
+C008,Kavita Roy,35.0,Female,Kolkata,2500,10-05-2025,kavita@gmail.com
+C009,Rajesh Kumar,40.0,M,Bangalore,3000,11-05-2025,rajesh@gmail.com
+C010,Pooja Sharma,27.0,Female,Delhi,1900,12-05-2025,pooja@gmail.com
+C011,Rahul Sharma,25.0,Male,Delhi,1500,01-05-2025,rahul@gmail.com
+C012,Vikash Das,31.0,Male,Kolkata,abc,13-05-2025,vikash@gmail.com
+C013,Sonia Mehta,26.0,Female,Mumbai,2400,14-05-2025,sonia@gmail.com
+C014,Arun Mishra,22.0,Male,Delhi,2800,15/05/2025,arun@gmail.com
+C015,Ritika Sen,33.0,Female,Kolkata,2600,16-05-2025,ritika@gmail.com
+C015,Ritika Sen,33.0,Female,Kolkata,2600,16-05-2025,ritika@gmail.com
