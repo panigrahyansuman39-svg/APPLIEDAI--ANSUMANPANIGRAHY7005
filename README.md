@@ -24,3 +24,40 @@ TODAY AN EXAM WAS CONDUCTED BY OUR TRAINER .
 
 DAY07
 TODAY I HAVE LEARNED ABOUT DATA CLEANING,DATA VALIDATION,DATA VALIDATION AND OTHER STEPS INCLUDE IN MODEL MAKING AND PERFORMED ALL THE PRACTICAL ON THAT CONCEPTS.
+\
+
+
+
+
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Sample data
+X = np.array([1, 2, 3, 4, 5, 6]).reshape(-1, 1)
+y = np.array([2, 4, 5, 4, 5, 7])
+
+# Create and train the model
+model = LinearRegression()
+model.fit(X, y)
+
+# Predict values
+y_pred = model.predict(X)
+
+# Print equation
+print("Slope (m):", model.coef_[0])
+print("Intercept (c):", model.intercept_)
+
+# Plot data points
+plt.scatter(X, y, label="Actual Data")
+
+# Plot regression line
+plt.plot(X, y_pred, label="Regression Line")
+
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.title("Linear Regression")
+plt.legend()
+plt.show()
